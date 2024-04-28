@@ -1,0 +1,77 @@
+<div class="truck-profile">
+  <div class="button-row">
+        <button mat-stroked-button color="primary" (click)="goBack()">Back</button>
+    </div>
+    <!-- Truck Information Card -->
+    <mat-card class="card truck-information-card">
+      <mat-card-header>
+        <mat-card-title>Truck Information</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <ul>
+          <li><strong>Model:</strong> Mercedes-Benz Actros</li>
+          <li><strong>Year:</strong> 2020</li>
+          <li><strong>TÜV Control Last Date:</strong> 2023-05-12</li>
+          <li><strong>TÜV Control Next Date:</strong> 2024-05-12</li>
+          <li><strong>KM Counter When Bought:</strong> 5000 km</li>
+          <!-- Add more information here as needed -->
+        </ul>
+      </mat-card-content>
+    </mat-card>
+  
+    <!-- Maintenance History Card -->
+    <mat-card class="card maintenance-history-card">
+      <mat-card-header>
+        <mat-card-title>Maintenance History</mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="scrollable">\
+        <!-- Vertical Timeline List -->
+        <div class="timeline">
+          <div class="event">
+            <div class="event-date">2023-06-15</div>
+            <div class="event-details">
+              <div class="event-type">Regular Maintenance</div>
+              <div class="event-description">Oil change and filter replacement</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-date">2023-10-20</div>
+            <div class="event-details">
+              <div class="event-type">TÜV Inspection</div>
+              <div class="event-description">Passed inspection without issues</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-date">2023-06-15</div>
+            <div class="event-details">
+              <div class="event-type">Regular Maintenance</div>
+              <div class="event-description">Oil change and filter replacement</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-date">2023-10-20</div>
+            <div class="event-details">
+              <div class="event-type">TÜV Inspection</div>
+              <div class="event-description">Passed inspection without issues</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-date">2023-06-15</div>
+            <div class="event-details">
+              <div class="event-type">Regular Maintenance</div>
+              <div class="event-description">Oil change and filter replacement</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="event-date">2023-10-20</div>
+            <div class="event-details">
+              <div class="event-type">TÜV Inspection</div>
+              <div class="event-description">Passed inspection without issues</div>
+            </div>
+          </div>
+          <!-- Add more events here as needed -->
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

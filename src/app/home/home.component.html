@@ -1,0 +1,22 @@
+<div class="truck-cards-container" routerLink="truck-profile">
+  <div *ngFor="let i of [0, 1, 2, 3, 4, 5, 6]" class="truck-card-wrapper" [routerLink]="['/truck-profile']">
+    <mat-card class="truck-card">
+      <mat-card-content>
+        <!-- First row: Alert for needed maintenance -->
+        <div class="row alert-maintenance">
+          <span>Alert: Maintenance Needed</span>
+        </div>
+        <!-- Second row: Truck plate number -->
+        <div class="row plate-number">
+          <span class="plate-number-text">Plate Number:</span>
+          <span class="plate-number-value">ABC 123</span>
+        </div>
+        <!-- Third row: Date of last maintenance -->
+        <div class="row last-maintenance">
+          <span class="last-maintenance-text">Last Maintenance:</span>
+          <span class="last-maintenance-value">2024-04-20</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
