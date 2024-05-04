@@ -39,6 +39,10 @@ font-size: 0.9em; /* Adjust font size for last maintenance */
 margin-right: 5px; /* Add spacing between text and value */
 }
 
+.button-row {
+    margin: 20px;
+}
+
 
 @media screen and (max-width: 767px) {
 .truck-card-wrapper {

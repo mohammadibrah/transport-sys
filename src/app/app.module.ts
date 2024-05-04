@@ -13,13 +13,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { TruckProfileComponent } from './truck-profile/truck-profile.component';
+import { TruckDialogComponent } from './truck-dialog/truck-dialog.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { FormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatInputModule } from '@angular/material/input';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     HomeComponent,
-    TruckProfileComponent
+    TruckProfileComponent,
+    TruckDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +41,13 @@ import { TruckProfileComponent } from './truck-profile/truck-profile.component';
     MatListModule,
     BrowserAnimationsModule,
     MatCardModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatDialogModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
